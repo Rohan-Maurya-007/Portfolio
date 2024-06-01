@@ -39,7 +39,7 @@ const Projects = () => {
           }}
           initial="hidden"
           animate={projectScrollAnimation}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1 }}
         >
           <img
             src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(7).jpeg?raw=true"
@@ -87,7 +87,7 @@ const Projects = () => {
           }}
           initial="hidden"
           animate={projectScrollAnimation}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1 }}
         >
           <img
             src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(5).jpeg?raw=true"
@@ -138,7 +138,7 @@ const Projects = () => {
           }}
           initial="hidden"
           animate={projectScrollAnimation}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1 }}
         >
           <img
             src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(8).jpeg?raw=true"

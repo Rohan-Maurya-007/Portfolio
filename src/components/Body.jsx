@@ -38,7 +38,7 @@ const Body = () => {
       </motion.div>
       <motion.div className="flex items-center flex-col justify-center lg:w-1/2 md:w-1/2"
       >
-        <div className="flex gap-2 items-center ">
+        <div className="flex gap-3 items-center ">
         <motion.h1 className="text-2xl text-neutral-800 font-bold "
         variants=
         {{
