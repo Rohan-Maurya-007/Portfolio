@@ -1,36 +1,34 @@
 import { motion, useAnimation, useInView } from "framer-motion";
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 const Projects = () => {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
+  // const ref = useRef(null);
+  // const inView = useInView(ref, { once: true });
 
-  const scrollAnimation = useAnimation();
-  const projectScrollAnimation = useAnimation();
+  // const scrollAnimation = useAnimation();
+  // const projectScrollAnimation = useAnimation();
 
-  useEffect(() => {
-    if (inView) {
-      scrollAnimation.start("visible");
-      projectScrollAnimation.start("visible");
-    }
-  }, [inView]);
+  // useEffect(() => {
+  //   if (inView) {
+  //     scrollAnimation.start("visible");
+  //     projectScrollAnimation.start("visible");
+  //   }
+  // }, [inView]);
   return (
     <div className="flex flex-col justify-center w-full items-center bg-gradient-to-r from-amber-200 to-emerald-100">
       <motion.h1
         className="text-slate-900 text-3xl font-bold"
-        ref={ref}
         variants={{
           hidden: { opacity: 0, x: -100 },
           visible: { opacity: 1, x: 0 },
         }}
         initial="hidden"
-        animate={scrollAnimation}
-        transition={{ duration: 1 }}
+        animate="visible"
+        transition={{ duration: 1, delay:1 }}
       >
         ~Projects~
       </motion.h1>
       <div className="flex flex-col justify-center items-center lg:flex-row m-2">
         <motion.div
-          ref={ref}
           className="flex flex-col justify-center items-center p-2 m-2 border border-black  rounded-lg bg-gradient-to-r from-teal-400 to-yellow-200
             "
           variants={{
@@ -38,8 +36,8 @@ const Projects = () => {
             visible: { opacity: 1, x: 0 },
           }}
           initial="hidden"
-          animate={projectScrollAnimation}
-          transition={{ duration: 1 }}
+          animate="visible"
+          transition={{ duration: 1, delay:1 }}
         >
           <img
             src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(7).jpeg?raw=true"
@@ -79,15 +77,14 @@ const Projects = () => {
           </p>
         </motion.div>
         <motion.div
-        ref={ref}
           className="flex flex-col justify-center items-center p-2 m-2 bg-gradient-to-r from-teal-400 to-yellow-200 rounded-lg border border-black"
           variants={{
             hidden: { opacity: 0, x: 200 },
             visible: { opacity: 1, x: 0 },
           }}
           initial="hidden"
-          animate={projectScrollAnimation}
-          transition={{ duration: 1 }}
+          animate="visible"
+          transition={{ duration: 1, delay:1}}
         >
           <img
             src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(5).jpeg?raw=true"
@@ -130,15 +127,14 @@ const Projects = () => {
           </p>
         </motion.div>
         <motion.div
-        ref={ref}
           className="flex  flex-col justify-center items-center p-2 m-2 bg-gradient-to-r from-teal-400 to-yellow-200 rounded-lg border border-black"
           variants={{
             hidden: { opacity: 0, x: 300 },
             visible: { opacity: 1, x: 0 },
           }}
           initial="hidden"
-          animate={projectScrollAnimation}
-          transition={{ duration: 1 }}
+          animate="visible"
+          transition={{ duration: 1, delay:1 }}
         >
           <img
             src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(8).jpeg?raw=true"
