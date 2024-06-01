@@ -34,7 +34,7 @@ const Contact = () => {
           }}
         >
           <img
-            src="src/contact-svg/github.svg"
+            src="https://raw.githubusercontent.com/Rohan-Maurya-007/Portfolio/d673d260db3b9084731a69ffe3279d42e9b1fa8c/src/contact-svg/github.svg"
             alt="github svg"
             className="h-12 p-2 "
           />
@@ -51,7 +51,7 @@ const Contact = () => {
           }}
         >
           <img
-            src="src/contact-svg/linkedin.svg"
+            src="https://raw.githubusercontent.com/Rohan-Maurya-007/Portfolio/d673d260db3b9084731a69ffe3279d42e9b1fa8c/src/contact-svg/linkedin.svg"
             alt="linkedin svg"
             className="h-12 p-2 "
           />
@@ -67,7 +67,7 @@ const Contact = () => {
           }}
         >
           <img
-            src="src/contact-svg/mail.svg"
+            src="https://raw.githubusercontent.com/Rohan-Maurya-007/Portfolio/d673d260db3b9084731a69ffe3279d42e9b1fa8c/src/contact-svg/mail.svg"
             alt="mail svg"
             className="h-12 p-2 "
           />

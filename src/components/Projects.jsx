@@ -42,7 +42,7 @@ const Projects = () => {
           transition={{ duration: 1, delay: 1 }}
         >
           <img
-            src="src/assets/Designer (7).jpeg"
+            src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(7).jpeg?raw=true"
             alt="UTS image"
             className="h-44 rounded-md border  border-black"
           />
@@ -90,7 +90,7 @@ const Projects = () => {
           transition={{ duration: 1, delay: 1 }}
         >
           <img
-            src="src/assets/Designer (5).jpeg"
+            src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(5).jpeg?raw=true"
             alt="UTS image"
             className="h-44 rounded-md border border-black"
           />
@@ -141,7 +141,7 @@ const Projects = () => {
           transition={{ duration: 1, delay: 1 }}
         >
           <img
-            src="src/assets/Designer (8).jpeg"
+            src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(8).jpeg?raw=true"
             alt="UTS image"
             className="h-44 rounded-md border border-black"
           />

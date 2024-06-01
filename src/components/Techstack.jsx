@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react"
 const Techstack = ()=>{
 
     const techSvg = ["java.svg", "spring.svg","springboot.svg", "hibernate.svg", "sql.svg","js.svg","react.svg","tailwind.svg","git.svg","github.svg","html.svg","css.svg","npm.svg","postman.svg","vscode.svg","eclipse.svg"]
-    const url = "src/svgs/"
+    const url = "https://raw.githubusercontent.com/Rohan-Maurya-007/Portfolio/d673d260db3b9084731a69ffe3279d42e9b1fa8c/src/svgs/"
     const techNames = ["Java", "Spring", "Spring-Boot", "Hibernate", "Sql", "JavaScript", "React","Tailwind", "Git", "Github", "HTML","CSS","NPM","Postman","VS code", "Eclipse" ]
     
     const ref = useRef(null);

@@ -1,6 +1,6 @@
 import { delay, motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
-import resume from '../assets/RohanResume2_0.pdf'
+import resume from '../assets/RohanResume.pdf'
 const Body = () => {
 
   const ref = useRef(null);
@@ -29,7 +29,7 @@ const Body = () => {
           transition={{ duration: 1, delay:1 }}>
       
         <img
-          src="/src/assets/Designer (1).jpeg"
+          src="https://github.com/Rohan-Maurya-007/Portfolio/blob/main/src/assets/Designer%20(1).jpeg?raw=true"
           alt="image coder"
           className="rounded-lg h-40 w-40 border border-slate-900 lg:h-96 lg:w-96 md:h-60 md:w-60 "
           
